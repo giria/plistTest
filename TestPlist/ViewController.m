@@ -44,10 +44,7 @@
     NSFileManager *fileManager = [NSFileManager defaultManager];
     NSLog(@" directorio %@", path);
     
-//    if (![fileManager fileExistsAtPath: path])
-//    {
-//        path = [documentsDirectory stringByAppendingPathComponent: [NSString stringWithFormat: @"Mercadona33.plist"] ];
-//    }
+
 
     NSMutableDictionary *data;
     
@@ -64,6 +61,8 @@
     //To insert the data into the plist
     int value = 5;
     [data setObject:[NSNumber numberWithInt:value] forKey:@"value"];
+    NSArray* array = @[ @"uno", @"dos", @"tres"];
+    [data setObject: array forKey:@"itemsArray"];
     [data writeToFile: path atomically:YES];
     
     
