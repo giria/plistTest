@@ -14,6 +14,7 @@
 		8AD7B4FE1AB84B6900D4E4D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7B4FD1AB84B6900D4E4D1 /* Images.xcassets */; };
 		8AD7B5011AB84B6900D4E4D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7B4FF1AB84B6900D4E4D1 /* LaunchScreen.xib */; };
 		8AD7B50D1AB84B6900D4E4D1 /* TestPlistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7B50C1AB84B6900D4E4D1 /* TestPlistTests.m */; };
+		8AD7B5171AB84DB700D4E4D1 /* Mercadona.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7B5161AB84DB700D4E4D1 /* Mercadona.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8AD7B5061AB84B6900D4E4D1 /* TestPlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD7B50B1AB84B6900D4E4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD7B50C1AB84B6900D4E4D1 /* TestPlistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPlistTests.m; sourceTree = "<group>"; };
+		8AD7B5161AB84DB700D4E4D1 /* Mercadona.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mercadona.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		8AD7B4E41AB84B6800D4E4D1 = {
 			isa = PBXGroup;
 			children = (
+				8AD7B5161AB84DB700D4E4D1 /* Mercadona.plist */,
 				8AD7B4EF1AB84B6800D4E4D1 /* TestPlist */,
 				8AD7B5091AB84B6900D4E4D1 /* TestPlistTests */,
 				8AD7B4EE1AB84B6800D4E4D1 /* Products */,
@@ -202,6 +205,7 @@
 				8AD7B4FC1AB84B6900D4E4D1 /* Main.storyboard in Resources */,
 				8AD7B5011AB84B6900D4E4D1 /* LaunchScreen.xib in Resources */,
 				8AD7B4FE1AB84B6900D4E4D1 /* Images.xcassets in Resources */,
+				8AD7B5171AB84DB700D4E4D1 /* Mercadona.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
